@@ -75,4 +75,4 @@ df.dtypes # re-check datatypes
 df['modality_inperson'] = (df['Learning_Modality'].apply(
     lambda x: 'True' if x == 'in-person' else False)) 
 
-df.to_csv('data\School_Learning_Modalities_CLEAN.csv') # creates and exports df into new csv file
+df.to_csv('data\School_Learning_Modalities_2.csv') # creates and exports df into new csv file

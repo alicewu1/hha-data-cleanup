@@ -17,7 +17,7 @@ Wrote a .py script file that performs the following on the dataset:
 8. Look for duplicate rows and remove duplicate rows
 9. Assess missingness and whitespace
 10. Creating new data (create new column using binary variable from existing column)
-11. Exported dataframe into new .csv file called School_Learning_Modalities_CLEANED
+11. Exported dataframe into new .csv file called School_Learning_Modalities_2
 
 
 This Repo Contains:
