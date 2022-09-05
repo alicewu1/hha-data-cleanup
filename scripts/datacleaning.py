@@ -1,3 +1,4 @@
+from this import d
 import pandas as pd
 import datetime as dt
 import uuid # universal unique identifier 
@@ -48,7 +49,7 @@ df.columns.duplicated() # look of duplicate rows
 
 ### REMOVING WHITESPACE ###
 # .sum tp get a count of missing values in each column
-df.isnull().sum() ## Identified Student Column with missing 604 values
+df.isnull().sum() ## Identified Student_Count Column with missing 604 values
 
 # replacing blank, empty cells with NaN 
 #NaN tells python that it is a missing value instead of white space that we can't see
@@ -66,3 +67,12 @@ df['Week'] = pd.to_datetime(df['Week'])
 #removed empty cells with NaaN before converting Student_Count column
 df['Student_Count'] = df['Student_Count'].astype(int)#convert Student_Count column from float64 to int
 df.dtypes # re-check datatypes
+
+
+
+### NEW DATA ###
+#create new column named modality_inperson with Binary Variable from existing column Learning_Modality
+df['modality_inperson'] = (df['Learning_Modality'].apply(
+    lambda x: 'True' if x == 'in-person' else False)) 
+
+df.to_csv('data\School_Learning_Modalities_CLEAN.csv') # creates and exports df into new csv file
