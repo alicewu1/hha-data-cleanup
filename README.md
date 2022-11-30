@@ -25,19 +25,20 @@ HHA507 / Data Science / Assignment 2 / Data Cleanup
 4. Cleans the column names, Strings that might exist within each column, Assess white space or special characters
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L23-L28
 
-6. Converts the column types to the correct types
+5. Converts the column types to the correct types
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L31-L43
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L63-L69
-8. Look for duplicate rows and remove duplicate rows
+
+6. Look for duplicate rows and remove duplicate rows
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L46-L47
 
-9. Assess missingness and whitespace
+7. Assess missingness and whitespace
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L50-L60
 
-10. Creating new data (create new column using binary variable from existing column)
+8. Creating new data (create new column using binary variable from existing column)
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L73-L76
 
-11. Exported dataframe into new .csv file called School_Learning_Modalities_2
+9. Exported dataframe into new .csv file called School_Learning_Modalities_2
 - https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L78 
 
 
