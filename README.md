@@ -1,28 +1,46 @@
 # hha-data-cleanup
-For HHA507 Assignment 2 - 
-
-Downloaded and utilized public dataset from healthdata.gov called “School Learning Modalities” for data formatting and cleaning 
-
-URL: https://healthdata.gov/National/School-Learning-Modalities/aitj-yx37 
+HHA507 / Data Science / Assignment 2 / Data Cleanup
 
 
-Wrote a .py script file that performs the following on the dataset:
+## This repo aims to:
+- practice formatting and cleaning a public dataset
+- **Public dataset from healthdata.gov:** [School Learning Modalities](https://healthdata.gov/National/School-Learning-Modalities/aitj-yx37)
+
+## This repo Contains:
+- **readme.md**: provides the instructions for what I am doing
+- **data** folder: contains original .csv file and cleaned .csv file
+- **scripts** folder: contains my .py file
+- **requirements.txt** file containing necessary libraries
+
+## Created a .py script file that performs the following on the dataset:
 1. Loads the data into python
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L7-L9
+
 2. Prints the count of columns and rows
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L11-L12
+
 3. Provides a print out of the column names
-4. Cleans the column names
-5. Cleans the strings that might exist within each column
-6. Assesses white space or special characters
-7. Converts the column types to the correct types
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L15-L20
+
+4. Cleans the column names, Strings that might exist within each column, Assess white space or special characters
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L23-L28
+
+6. Converts the column types to the correct types
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L31-L43
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L63-L69
 8. Look for duplicate rows and remove duplicate rows
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L46-L47
+
 9. Assess missingness and whitespace
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L50-L60
+
 10. Creating new data (create new column using binary variable from existing column)
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L73-L76
+
 11. Exported dataframe into new .csv file called School_Learning_Modalities_2
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L78 
 
 
-This Repo Contains:
-1. readme.md file that provides the instructions for what I am doing
-2. ‘data’ folder containing original .csv file and cleaned .csv file
-3. ‘scripts’ folder that contains my .py file
-4. requirements.txt file containing necessary libraries
+## Packages Used:
+- https://github.com/alicewu1/hha-data-cleanup/blob/5e464d1fe031860555091e3a2a13c0802d13013e/scripts/datacleaning.py#L1-L5
 
